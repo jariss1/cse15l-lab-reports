@@ -32,3 +32,6 @@ public static void main(String[]args)
   System.out.println("Hello World!");
 }
 ```
+
+
+> Live formatting is so cool; it **updates** as i _type_.
