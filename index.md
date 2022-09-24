@@ -1,10 +1,10 @@
 Hello, World!
 
-#Using markdown
+# Using markdown
   *this is italic*
   **BOLD**
   
-##Markdown guide
+## Markdown guide
 [Link](https://www.markdownguide.org/getting-started/)
 
 [Image](cse15limg.png)
@@ -21,7 +21,7 @@ Hello, World!
 
 Seperate page:
 ---
-what if i have to write code like 'public static void main(String[]args)' in text
+what if i have to write code like `public static void main(String[]args)` in text
 
 or
 
