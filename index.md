@@ -1,13 +1,13 @@
-Hello, World!
+# Table of Contents
+**Lab Report 1:** [Link](https://jariss1.github.io/cse15l-lab-report/lab-report-1-week-0.html)
 
-# Using markdown
-  *this is italic*
-  **BOLD**
-  
-## Markdown guide
-[Link](https://www.markdownguide.org/getting-started/)
+**Markdown guide:** [Link](https://www.markdownguide.org/getting-started/)
 
 [Image](cse15limg.png)
+
+## Using markdown
+  *this is italic*
+  **BOLD**
 
 > woo! i'm seperated
 
@@ -26,7 +26,7 @@ what if i have to write code like `public static void main(String[]args)` in tex
 or
 
 ```
-#A code block!
+//A code block!
 public static void main(String[]args)
 {
   System.out.println("Hello World!");
