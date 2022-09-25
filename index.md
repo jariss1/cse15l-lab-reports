@@ -23,8 +23,6 @@ Seperate page:
 ---
 what if i have to write code like `public static void main(String[]args)` in text
 
-or
-
 ```
 //A code block!
 public static void main(String[]args)
