@@ -1,5 +1,5 @@
 # Table of Contents
-**Lab Report 1:** [Link](https://jariss1.github.io/cse15l-lab-report/lab-report-1-week-0.html)
+**Lab Report 1:** [Link](https://jariss1.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
 
 **Markdown guide:** [Link](https://www.markdownguide.org/getting-started/)
 
