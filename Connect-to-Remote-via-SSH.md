@@ -104,7 +104,7 @@ Having to login using your password everytime you SSH can become annoying *quick
 2. Hit Enter when prompted to save the key to the *default* path, and take note of it
 
 ```
-# on client (your computer)
+#on client (your computer)
 $ ssh-keygen
 Generating public/private rsa key pair.
 Enter file in which to save the key (/Users/joe/.ssh/id_rsa): /Users/joe/.ssh/id_rsa
