@@ -1,6 +1,8 @@
 # Table of Contents
 **Lab Report 1:** [Link](https://jariss1.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
 
+**Lab Report 1:** [Link](https://jariss1.github.io/cse15l-lab-reports/Connect-to-Remote-via-SSH.html)
+
 **Markdown guide:** [Link](https://www.markdownguide.org/getting-started/)
 
 [Image](cse15limg.png)
