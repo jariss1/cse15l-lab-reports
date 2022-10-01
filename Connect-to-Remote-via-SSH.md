@@ -26,7 +26,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 2. Enter `yes` and your password:
 
 ```
-# On your client
+#On your client
 ⤇ ssh cs15lfa22zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
@@ -129,21 +129,25 @@ The key's randomart image is:
 ```
 
 3. Log into SSH 
+
 ```
 #on client
 $ ssh cs15lfa22zz@ieng6.ucsd.edu
 <Enter Password>
 ```
+
 ```
 # now on server
 $ mkdir .ssh
 $ <logout>
 ```
+
 ```
 #back on client
 $ scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 #You use your username and the path you saw in the command above
 ```
+
 Now you can login via SSH w/o entering your password
 
 ---
