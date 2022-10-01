@@ -91,7 +91,7 @@ java WhereAmI
 3. In terminal, run `scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/`
 using your username id and enter your password
 
-4. Log into ieng6 using ssh
+4. Log into `ieng6` using ssh
 
 [Image](SCP.jpeg)
 
@@ -130,7 +130,7 @@ The key's randomart image is:
 
 3. Log into SSH 
 ```
-# on client
+#on client
 $ ssh cs15lfa22zz@ieng6.ucsd.edu
 <Enter Password>
 ```
@@ -140,9 +140,9 @@ $ mkdir .ssh
 $ <logout>
 ```
 ```
-# back on client
+#back on client
 $ scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
-# You use your username and the path you saw in the command above
+#You use your username and the path you saw in the command above
 ```
 Now you can login via SSH w/o entering your password
 
