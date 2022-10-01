@@ -1,3 +1,5 @@
+*Preface: I completed the lab before lab day not knowing the lab was supposed to be done in groups, thus some screenshots will be from groupmates as I assisted them in completing the steps*
+
 # Connect to Remote via SSH
 
 ## Installing VS Code
@@ -13,6 +15,7 @@
 1. type `$ ssh cs15lfa22zz@ieng6.ucsd.edu` and replace zz with your user id
 
 This will be returned:
+
 ```
 ⤇ ssh cs15lfa22zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
@@ -21,6 +24,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 
 2. Enter `yes` and your password:
+
 ```
 # On your client
 ⤇ ssh cs15lfa22zz@ieng6.ucsd.edu
@@ -29,6 +33,7 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 Password: 
 ```
+
 ```
 # Now on remote server
 Last login: Sun Jan  2 14:03:05 2022 from 107-217-10-235.lightspeed.sndgca.sbcglobal.net
@@ -45,6 +50,7 @@ ieng6-203   23:25:01   1  0.08,  0.15,  0.11
 
 Sun Jan 02, 2022 11:28pm - Prepping cs15lfa22
 ```
+
 *Now you're connected to the remote server!*
 
 [Image](SSH.png)
