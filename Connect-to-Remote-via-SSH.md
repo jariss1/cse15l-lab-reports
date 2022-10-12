@@ -92,8 +92,7 @@ javac WhereAmI.java
 java WhereAmI
 ```
 
-3. In terminal, run `scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/`
-using your username id and enter your password
+3. In terminal, run `scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/` using your username id and enter your password.
 This will copy `WhereAmmI.java` from the client to the remote server
 
 4. Log into `ieng6` using ssh
@@ -108,6 +107,7 @@ Having to login using your password everytime you SSH can become annoying *quick
 
 2. Hit Enter when prompted to save the key to the *default* path, and take note of it
 > You can enter a passphrase to secure your key, or hit *enter* to have no passphrase. If a passphrase is entered, you will have to use it everytime you ssh.
+
 ```
 #on client (your computer)
 $ ssh-keygen
@@ -135,6 +135,7 @@ The key's randomart image is:
 
 3. Log into SSH 
 > ssh - login to remote server
+
 ```
 #on client
 $ ssh cs15lfa22zz@ieng6.ucsd.edu
@@ -142,6 +143,7 @@ $ ssh cs15lfa22zz@ieng6.ucsd.edu
 ```
 
 > mkdir <directory> - Make a directory
+
 ```
 # now on server
 $ mkdir .ssh 
@@ -169,6 +171,7 @@ Using the up arrow, your terminal would look something like this:
 ## Questions!?!
 What happens when you rerun a scp file with the same name?
 > The old file will be replaced with the new file (same name) that has the updated contents. Essentially, the contents of the file will be updated.
+
 
 How can you consider how long it takes to update and reupload a file when the time it takes to make changes to a file is completely volatile?
 >  The time it takes to update and reupload a file depends on how much time you spend editing the contents of the file. The upload of the file should take less than 30 seconds by running the scp command to update the contents of the file on the remote server.
