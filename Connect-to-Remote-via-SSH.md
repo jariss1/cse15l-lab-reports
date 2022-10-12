@@ -3,16 +3,20 @@
 # Connect to Remote via SSH
 
 ## Installing VS Code
+VS Code (Visual Studio Code) is a standalone source code editor with streamlined tools for debugging, task running, and version control.
+It is like the Google Docs for editing code!
 1. Go to [Link](https://code.visualstudio.com/) and download the correct version for your operating system
 
 > Once installed, you're window should look like this: 
- \
- [Image](VSCode.jpeg)
+ 
+ ![Image](VSCode.jpeg)
 
 ---
 
 ## Connecting to Remote via SSH
 1. type `$ ssh cs15lfa22zz@ieng6.ucsd.edu` and replace zz with your user id
+Your user id can be located through the [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php)
+
 
 This will be returned:
 
@@ -26,7 +30,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 2. Enter `yes` and your password:
 
 ```
-#On your client
+#On your client (piece of hardware/software that accesses a service on a server)
 ⤇ ssh cs15lfa22zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
@@ -52,7 +56,7 @@ Sun Jan 02, 2022 11:28pm - Prepping cs15lfa22
 
 *Now you're connected to the remote server!*
 
-[Image](SSH.png)
+![Image](SSH.png)
 
 ---
 ## Run some commands!
@@ -65,7 +69,7 @@ Try out some commands from the list below:
  * `cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/`
  * `cat /home/linux/ieng6/cs15lfa22/public/hello.txt`
 
- [Image](Commands.png)
+![Image](Commands.png)
 
 ---
 ## Copying Files from Client to Remote
@@ -90,10 +94,11 @@ java WhereAmI
 
 3. In terminal, run `scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/`
 using your username id and enter your password
+This will copy `WhereAmmI.java` from the client to the remote server
 
 4. Log into `ieng6` using ssh
 
-[Image](SCP.jpeg)
+![Image](SCP.jpeg)
 
 ---
 ## SSH Keys
@@ -102,7 +107,7 @@ Having to login using your password everytime you SSH can become annoying *quick
 1. run the command `ssh-keygen` and this will generate a public & private key
 
 2. Hit Enter when prompted to save the key to the *default* path, and take note of it
-
+> You can enter a passphrase to secure your key, or hit *enter* to have no passphrase. If a passphrase is entered, you will have to use it everytime you ssh.
 ```
 #on client (your computer)
 $ ssh-keygen
@@ -129,16 +134,17 @@ The key's randomart image is:
 ```
 
 3. Log into SSH 
-
+> ssh - login to remote server
 ```
 #on client
 $ ssh cs15lfa22zz@ieng6.ucsd.edu
 <Enter Password>
 ```
 
+> mkdir <directory> - Make a directory
 ```
 # now on server
-$ mkdir .ssh
+$ mkdir .ssh 
 $ <logout>
 ```
 
@@ -157,10 +163,13 @@ Now you can login via SSH w/o entering your password
 * Use semicolons to run multiple commands on the same line in most terminals
 
 Using the up arrow, your terminal would look something like this:
-[Image](SCP.jpeg)
+![Image](SCP.jpeg)
 
 ---
 ## Questions!?!
 What happens when you rerun a scp file with the same name?
+> The old file will be replaced with the new file (same name) that has the updated contents. Essentially, the contents of the file will be updated.
 
 How can you consider how long it takes to update and reupload a file when the time it takes to make changes to a file is completely volatile?
+>  The time it takes to update and reupload a file depends on how much time you spend editing the contents of the file. The upload of the file should take less than 30 seconds by running the scp command to update the contents of the file on the remote server.
+
