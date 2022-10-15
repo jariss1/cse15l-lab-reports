@@ -1,5 +1,5 @@
 # Table of Contents
-**Simpe Search Engine and Bugs** [Link](https://jariss1.github.io/cse15l-lab-reports/Simple-Search-Engine-and-Bugs!.html)
+**Simple Search Engine and Bugs** [Link](https://jariss1.github.io/cse15l-lab-reports/Simple-Search-Engine-and-Bugs!.html)
 
 **Connecting to Remote via SSH:** [Link](https://jariss1.github.io/cse15l-lab-reports/Connect-to-Remote-via-SSH.html)
 
