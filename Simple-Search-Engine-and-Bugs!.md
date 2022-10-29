@@ -105,7 +105,8 @@ class NumberServer {
 
 ---
 
-## Fixing bugs :bug:, oh they're so *pesky* :wink:
+# Fixing bugs :bug:, oh they're so *pesky* :wink:
+## Bug 1
 For `reverseInPlace(), {0, 1, 2, 3, 4}`, the symptom is that the array is assigning the new value at index i, to the same array. In turn, the array is using the new values to replace the old values so when it reaches index 3, the array is actually {4,3,2,3,4}, thus the test fails. The bug is that a new array of the length of the input array should be declared before the loop. This new array should store the values of the input array reversed during each iteration.
 
 Correct code:
@@ -115,7 +116,7 @@ Correct code:
 ![Image](reverseInPlaceTests.png)
 ![Image](reverseInPlaceOutput.png)
 
-
+## Bug 2
 For `filter(), {“help”, “mistery”, “hi”, “words”}`, and checkString to return true if the length of the string is less than 4, the symptom is that the returned list is not in the order that they appeared. The bug is that the index was set to 0, rather than an iterative index.
 
 Correct Code:
