@@ -11,9 +11,8 @@ import java.util.ArrayList;
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
-
+    ArrayList<String> words = new ArrayList<String>();
     public String handleRequest(URI url) {
-        ArrayList<String> words = new ArrayList<String>();
         String[] parameters;
         if (url.getPath().contains("/add")) {
             parameters = url.getQuery().split("=");
@@ -97,13 +96,12 @@ class NumberServer {
 }
 ```
 
- ![Image](searchengine.png)
-* **localhost:####**: hostname of the current device executing a program with a port number
+ ![Image](searchEngine.png)
+* **localhost:3000/add?s=.....**: add a new string to a list (string is in the query marked by `?s=`
+* **localhost:3000/search?s=.....**: query a list of strings and return the strings that have the substring in `?s=`
 
-1. **localhost:6969:** the default page of the localhost
-2. **localhost:6969/increment:** increment is passed as an argument and the `handleRequest` method is invoked and processes the url. It sees /increment and increases the number by 1.
-3. **localhost:6969/add?count=69:** increment is passed as an argument and the `handleRequest` method is invoked and processes the url. It sees `/add` as the path and `?count` as the query. It takes the argument of the query, 69, and adds it to the number.
-4. **localhost:6969/cookie:** the url is passed into the `handleRequest` method which checks if any path matches the case statements. `/cookie` is not a legal path, so a *404 Error is returned*.
+* The method `handleRequest(URI url)` gets called when the localhost:#### is started. It returns a result based on the path.
+* The values of the strings added is stored outside of the if statements and then compared when the search query is passed.
 
 ---
 
