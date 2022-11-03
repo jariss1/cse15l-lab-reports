@@ -3,6 +3,8 @@
 
 **Connecting to Remote via SSH:** [Link](https://jariss1.github.io/cse15l-lab-reports/Connect-to-Remote-via-SSH.html)
 
+**Researching Commands:** [Link](https://jariss1.github.io/cse15l-lab-reports/Researching-Commands.html)
+
 **Lab Report 1:** [Link](https://jariss1.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
 
 **Markdown guide:** [Link](https://www.markdownguide.org/getting-started/)
