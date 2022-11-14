@@ -1,4 +1,7 @@
 # Table of Contents
+
+**Week 7 Lab Report** [Link](https://jariss1.github.io/cse15l-lab-reports/wwek7-lab.html)
+
 **Simple Search Engine and Bugs** [Link](https://jariss1.github.io/cse15l-lab-reports/Simple-Search-Engine-and-Bugs!.html)
 
 **Connecting to Remote via SSH:** [Link](https://jariss1.github.io/cse15l-lab-reports/Connect-to-Remote-via-SSH.html)
