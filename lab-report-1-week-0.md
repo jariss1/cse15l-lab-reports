@@ -1,1 +1,1 @@
-[Image](fixBug.png)
+![Image](fixBug.png)

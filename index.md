@@ -1,5 +1,7 @@
 # Table of Contents
 
+**AutoGrading Script** [Link](https://jariss1.github.io/cse15l-lab-reports/Lab-5.html)
+
 **Week 7 Lab Report** [Link](https://jariss1.github.io/cse15l-lab-reports/week7-lab.html)
 
 **Simple Search Engine and Bugs** [Link](https://jariss1.github.io/cse15l-lab-reports/Simple-Search-Engine-and-Bugs!.html)
