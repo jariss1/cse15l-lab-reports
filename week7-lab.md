@@ -4,6 +4,17 @@
 
 In vim: `:%s/start/base/g<ENTER>>:wq<ENTER>`
 1. `:%s/start/base/g<ENTER>`: Substitutes all occurences of *base* with *start*.
+**Command Breakdown**:
+
+%s: substitue a word with another word in all lines
+
+/start: word to substitute in
+
+/base: word to be substituted
+
+/g: replaces all matched words in the line to be replaced
+
+
 >**Command**![Image](substitutebase.png)
 >**Output**![Image](substitute.png)
 2. `:wq<ENTER>`: Write and quit
@@ -19,6 +30,19 @@ In vim: `:%s/start/base/g<Enter>/base<Enter>Ncestart<Esc>:wq`
 > Steps 1 and 2 are the same, however we need to change `Server.base` back to `Server.start`
 
 3. `/base<ENTER>Ncestart<ESC>:wq`: Find base, go forward to last occurence, delete word, type tart, write and quit
+
+**Command Breakdown:**
+
+/base: find all occurences of base in the file in Normal mode
+
+N: Go to the previous occurence of base 
+
+ce: replace to the end of word (deletes base), enter insert mode
+
+start: type *start* in insert mode
+
+wq: write and quit
+
 >**/base**
 ![Image](base.png)
 >**N**
